@@ -1,0 +1,85 @@
+.top{
+    width: 100%;
+    height: 27.1vw;
+    background: url(../img/top.png)no-repeat center;
+    background-size: 100% 100%;
+    padding-top: 17.1vw;
+    box-sizing: border-box;
+}
+.top .circle{
+    width: 17.8vw;
+    height: 17.8vw;
+    background: #fff;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow:0px 0px 21px 0px rgba(0, 0, 0, 0.22);
+}
+.top img{
+    width: 12.1vw;
+    height: 12.1vw;
+    display: block;
+    margin: 0 auto 0;
+}
+form {
+    height: 72vw;
+    width: 86.1vw;
+    margin: 15.3vw auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+form .inputO,form .inputT {
+    width: 86.1vw;
+    height: 10.8vw;
+    border-radius: 5.5vw;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border:1px solid rgba(112,112,112,1);
+    padding-left: 6.1vw;
+}
+form .inputO img{
+    width: 4.4vw;
+    height: 4.8vw;
+    margin-right: 3vw;
+}
+form .inputT img{
+    width: 4vw;
+    height: 5vw;
+    margin-right: 3vw;
+}
+form .inputO input, form .inputT input{
+    border: none;
+    outline: none;
+    font-size: 3.4vw;
+    color: #999;
+}
+form .input_sub{
+    width: 100%;
+    border-radius: 5.5vw;
+    box-shadow:0px 8px 32px 0px rgba(140,208,243,0.3);
+    background:rgba(140,208,243,1);
+    height: 10.8vw;
+    font-size: 3.7vw;
+    color: #fff;
+    line-height: 10.8vw;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin-top: 14.7vw;
+}
+form p{
+    width: 100%;
+    font-size: 3.2vw;
+    text-align: right;
+    margin-right: 5.4vw;
+    color: #666;
+}
+form a{
+    align-self: flex-end;
+}

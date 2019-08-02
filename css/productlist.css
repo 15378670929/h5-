@@ -1,0 +1,39 @@
+.top{
+    width: 90.4vw;
+    height: 36.5vw;
+    background: #fff;
+    margin: 4.8vw auto;
+}
+.list{
+    display: flex;
+    width: 90.4vw;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.list li{
+    width: 43.7vw;
+    height: 49.4vw;
+    margin-bottom: 5.86vw;
+}
+.list li .showlist{
+    width: 43.73vw;
+    height: 38.6vw;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+.list li p{
+    width: 30.67vw;
+    height: 7.3vw;
+    background:rgba(140,208,243,1);
+    border-radius: 3.6vw;
+    line-height: 7.3vw;
+    margin: 3.46vw auto 0;
+    font-size: 3.46vw;
+    color: #fff;
+}

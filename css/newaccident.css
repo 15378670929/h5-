@@ -1,0 +1,88 @@
+.productinfo{
+    width: 90.4vw;
+    height: 57.2vw;
+    background: #fff;
+    margin: 4.8vw auto;
+    box-sizing: border-box;
+    padding: 4.7vw;
+    font-size: 3.4vw;
+}
+.productinfo ul {
+    text-indent: 6.8vw;
+}
+
+.neworder_input{
+    width: 90.4vw;
+    height: 33vw;
+    background: #fff;
+    margin: 1.42vh auto;
+    box-sizing: border-box;
+    padding: 3.83vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.neworder_input label{
+    display: block;
+}
+.neworder_input label input{
+    width: 70.4vw;
+    height: 7.1vw;
+    font-size: 2.67vw;
+    color: #ccc;
+    padding: 2vw;
+    box-sizing: border-box;
+    outline: none;
+    border:2px solid rgba(170,170,170,1);
+}
+.neworder_input label span{
+    font-size: 3.5vw;
+    margin-right: 1vw;
+}
+
+.neworder_fileup{
+    width: 62.13vw;
+    margin: 6.26vw auto 0;
+}
+.neworder_fileup ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.neworder_fileup ul li label input{
+    display: none;
+}
+.neworder_fileup ul li label span{
+    display: block;
+    width: 22.27vw;
+    height: 22.27vw;
+    background: #fff;
+    line-height: 22.27vw;
+    font-size: 4.8vw;
+}
+.neworder_fileup ul li p{
+    max-width: 24.13vw;
+    font-size: 3.4vw;
+    height: 9.4vw;
+    margin-top: 4.8vw;
+}
+
+.neworder_btn{
+    width: 86.1vw;
+    margin: 8.5vw auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3.4vw;
+    text-align: center;
+    line-height: 7.2vw;
+}
+.neworder_btn .savebtn,.neworder_btn .submitbtn,.neworder_btn .backbtn{
+    width: 21.33vw;
+    height: 7.2vw;
+    border-radius: 3.6vw;
+    background:rgba(140,208,243,1);
+    color: #fff;
+}

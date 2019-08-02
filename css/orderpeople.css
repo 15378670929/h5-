@@ -1,0 +1,59 @@
+table{
+    width: 90.4vw;
+    height: 71.6vw;
+    background: #ffffff;
+    margin: 4.1vw auto 0;
+    text-align: center;
+    line-height: 8.8vw;
+    border-top: 1px solid rgba(204,204,204,1);
+    border-left: 1px solid rgba(204,204,204,1);
+    font-size: 2.66vw;
+}
+table tbody tr{
+    background: #FFF;
+}
+table tbody tr td:nth-child(1){
+    background: #F0F0F0;
+}
+table tbody tr td:nth-child(2){
+    text-align: left;
+    padding-left: 2.93vw;
+    box-sizing: border-box;
+}
+table tbody tr td{
+    border-bottom: 1px solid rgba(204,204,204,1);
+    border-right: 1px solid rgba(204,204,204,1);
+}
+
+.order_img{
+    width: 90.4vw;
+    height: 80.1vw;
+    background: #ffffff;
+    margin: 4.93vw auto;
+    overflow: hidden;
+    position: relative;
+}
+.order_img p{
+    margin: 5.75vw 0 0 5.75vw;
+    color: #666;
+    font-size: 3.2vw;
+}
+.order_img .back{
+    display: block;
+    width: 17.85vw;
+    height: 5.6vw;
+    background:rgba(140,208,243,1);
+    border-radius: 2.8vw;
+    text-align: center;
+    line-height: 5.6vw;
+    color: #fff;
+    position: absolute;
+    bottom: 4.66vw;
+    right: 4.87vw;
+}
+.order_img img{
+    margin-left: 6.34vw;
+    margin-top: 3.06vw;
+    max-width: 55.46vw;
+    max-height: 63.06vw;
+}

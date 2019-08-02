@@ -1,0 +1,66 @@
+.top{
+    width: 82.26vw;
+    margin-top:  5.73vw;
+    margin: 5.73vw auto 3.86vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .projectname{
+    font-size: 4vw;
+    font-weight: 500;
+}
+.top .projectdata{
+    font-size: 2.93vw;
+    font-weight: 500;
+}
+
+table{
+    width: 90.13vw;
+    /* height: 44.66vw; */
+    border: 1px solid rgba(204,204,204,1);
+    border-collapse:collapse;
+    margin: 0 auto 2.93vw;
+    text-align: center;
+    background: #fff;
+}
+table tr,table td,table th{
+    border: 1px solid rgba(204,204,204,1);
+    min-width: 16.93vw;
+}
+table thead tr{
+    background: #E8E8E8;
+    height: 8.53vw;
+    font-size: 3.2vw;
+}
+table tbody tr{
+    font-size: 2.66vw;
+    height: 11.6vw;
+    line-height: 11.6vw;
+}
+table tbody tr:nth-child(1){
+    background: #AAD0EB;
+}
+table tbody tr td:nth-child(3){
+    color: #0099FF;
+}
+table thead tr th .line{
+    position: relative;
+}
+table thead tr th .line .row{
+    height: 1px;
+    width: 29.7vw;
+    position: absolute;
+    transform: translate(0.2vw,-0) rotate(-15deg);
+    background: rgb(82, 81, 81);
+}
+table thead tr th .line .textO{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+table thead tr th .line .textT{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

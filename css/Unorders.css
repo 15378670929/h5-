@@ -1,0 +1,113 @@
+.title{
+    width: 50.4vw;
+    height: 8.5vw;
+    border-radius: 4.2vw;
+    line-height: 8.5vw;
+    margin: 4.7vw auto;
+    overflow: hidden;
+    font-size: 3.3vw;
+    border:1px solid rgba(140,208,243,1);
+    box-sizing: border-box;
+    background: #fff;
+}
+.title .showorder{
+    display: inline-block;
+    width: 48%;
+    background: #8CD0F3;
+    color: #fff;
+    text-align: center;
+}
+.title .hideorder{
+    display: inline-block;
+    width: 48%;
+    background: #FFF;
+    color: #AAA;
+    text-align: center;
+}
+
+.main{
+    overflow: hidden;
+}
+
+.main .neworder{
+    margin: 0 auto;
+    width: 90.4vw;
+    height: 24.5vw;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    line-height: 24.5vw;
+    justify-content: space-between;
+    padding: 0 4.3vw;
+    box-sizing: border-box;
+}
+.main .neworder img{
+    width: 13.72vw;
+    height: 13.72;
+}
+.main .neworder .username{
+    font-size: 4vw;
+}
+.main .neworder .neworder_btn {
+    width: 20vw;
+    height: 7.2vw;
+    background:rgba(140,208,243,1);
+    box-shadow:0px 0px 22px 2px rgba(191,191,191,0.2);
+    border-radius:3.6vw;
+    font-size: 3vw;
+    line-height: 7.2vw;
+    text-align: center;
+    color: #fff;
+}
+
+.main .search{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 6.5vw auto 0;
+}
+.main .search input{
+    width: 70.4vw;
+    height: 8.3vw;
+    background: #fff;
+    border: none;
+    outline: none;
+    padding: 2.7vw;
+    font-size: 2.7vw;
+    line-height: 8.3vw;
+    box-sizing: border-box;
+}
+.main .search .search_bth{
+    width: 17.1vw;
+    height: 8.3vw;
+    background:rgba(140,208,243,1);
+    box-shadow:0px 0px 22px 2px rgba(191,191,191,0.2);
+    border-radius: 1.6vw;
+    font-size: 3.4vw;
+    color: #fff;
+    font-weight: 500;
+    line-height: 8.3vw;
+    text-align: center;
+}
+
+.main table{
+    width: 90vw;
+    margin: 4.4vw auto 0;
+    text-align: center;
+}
+.main table tr {
+    height: 8.5vw;
+    background: #fff;
+}
+.main table thead tr{
+    background: #E8E8E8;
+}
+.main table tbody .unup{
+    background: #AAD0EB;
+}
+.main table tbody .show td:nth-child(4){
+    color: #0099FF;
+}
+.main table tbody{
+    font-size: 2.66vw;
+}
